@@ -1,0 +1,53 @@
+{
+  "name": "cousre-online",
+  "version": "1.0.0",
+  "description": "## Members",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint '**/*.js'",
+    "dev": "nodemon index.js",
+    "test": "jest --coverage --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/team-rocket-401d5/cousre-online.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/team-rocket-401d5/cousre-online/issues"
+  },
+  "homepage": "https://github.com/team-rocket-401d5/cousre-online#readme",
+  "dependencies": {
+    "base-64": "^1.0.0",
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "googleapis": "^64.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.10.13",
+    "socket.io": "^3.0.1",
+    "superagent": "^6.1.0",
+    "uniqid": "^5.2.0",
+    "url-params-parser": "^1.0.3"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "./__tests__/testvideo.js"
+    ]
+  },
+  "devDependencies": {
+    "@code-fellows/supergoose": "^1.0.11",
+    "eslint": "^7.13.0",
+    "jest": "^26.6.3",
+    "supertest": "^6.0.1"
+  }
+}
